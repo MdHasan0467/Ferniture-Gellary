@@ -1,0 +1,670 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header{
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/Furniture-1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+header > .logo{
+  width: 200px;
+  height: 200px;
+}
+
+header > .right-side-color{
+  width: 400px;
+  height: 500px;
+  background: #ee5253;
+  position: absolute;
+  right: 0;
+  top: 0;
+  border-radius: 10px;
+}
+
+
+header nav{
+  position: absolute;
+  top: 30px;
+  left: 30%;
+}
+
+header nav ul li{
+  display: inline-block;
+  list-style: none;
+  margin-left: 50px;
+
+}
+
+header nav ul li a{
+  text-decoration: none;
+  cursor: pointer;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  color: #fff;
+  padding: 5px 20px;
+  transition: 0.5s;
+}
+header nav ul li a:hover {
+  border: 1px solid #c8d6e5;
+  background: #c8d6e5;
+  color: #000;
+}
+
+.header-right-side-img{
+  width: 400px;
+  height: 300px;
+  position: absolute;
+  left: 60%;
+  top: 20%;
+  border-radius: 10px;
+}
+
+header h2{
+  color: #c8d6e5;
+  font-size: 30px;
+  position: absolute;
+  top: 30%;
+  left: 15%;
+}
+
+header h3 {
+  font-size: 18px;
+  color: #ee5253;
+  position: absolute;
+  top: 37%;
+  left: 15%;
+}
+
+
+header h1 {
+  font-size: 40px;
+  color: #c8d6e5;
+  position: absolute;
+  top: 41%;
+  left: 15%;
+}
+
+header p{
+  font-size: 22px;
+  font-weight: 400;
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 15%;
+}
+
+.header-btn{
+  position: absolute;
+  bottom: 20%;
+  left: 15%;
+  padding: 10px;
+  border: 1px solid #ee5253;
+  background: #ee5253;
+  color: #c8d6e5;
+  text-decoration: none;
+  font-size: 26px;
+  border-radius: 10px;
+  transition: 0.5s;
+}
+
+.header-btn:hover{
+  border: 1px solid #c8d6e5;
+  background: #c8d6e5;
+  color: #000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.about-section{
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+
+.about-section img{
+  width:200px;
+  height: 200px;
+  border: 1px solid #c8d6e5;
+}
+
+.about-section .about-section-img1{
+  position: absolute;
+  top: 20%;
+  left: 30%;
+}
+
+.about-section .about-section-img2 {
+  position: absolute;
+  top: 30%;
+  left: 18%;
+}
+
+.about-section .about-section-img3 {
+  position: absolute;
+  top: 50%;
+  left: 23%;
+  z-index: 1;
+}
+
+.about-section .about-section-img4 {
+  position: absolute;
+  top: 60%;
+  left: 30%;
+}
+
+.about-section h1{
+  font-size: 40px;
+  position: absolute;
+  top: 30%;
+  right: 30%;
+}
+
+
+.about-section p {
+  font-size: 20px;
+  position: absolute;
+  top: 40%;
+  right: 5%;
+}
+
+.about-section .about-btn{
+  font-size: 22px;
+  position: absolute;
+  bottom: 30%;
+  right: 25%;
+  color: #c8d6e5;
+  border: 1px solid #ee5253;
+  background: #ee5253;
+  padding: 5px 10px;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+
+.about-section .about-btn:hover{
+  text-decoration: underline;
+}
+
+
+
+.testimonial-section{
+  background: #ff6b6b;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+
+.testimonial-section h1 {
+  font-size: 40px;
+  position: absolute;
+  top: 30px;
+  left: 35%;
+
+}
+
+.testimonial-section h1 span{
+  color: #fff000;
+}
+
+.testimonial-section .first-p {
+  font-size: 20px;
+  position: absolute;
+  top: 80px;
+  left: 35%;
+
+}
+
+
+.testimonial-section .quotes{
+  font-weight: 700;
+  color: #000;
+  font-size: 40px;
+  position: absolute;
+  left: 10%;
+  top: 40%;
+}
+
+
+.testimonial-section .Client-says{
+  background: #c8d6e5;
+  width: 400px;
+  height: 450px;
+  position: absolute;
+  top: 27%;
+  right: 10%;
+}
+
+
+.testimonial-section .Client-says h2{
+  margin-top: 20px;
+  margin-left: 60px;
+  font-size: 30px;
+}
+
+.testimonial-section .Client-says h2 span{
+  color: #ee5253;
+}
+
+.testimonial-section .Client-says img{
+  width: 250px;
+  height: 150px;
+  margin-left: 80px;
+  margin-top: 30px;
+}
+
+.testimonial-section .Client-says .star{
+  position: absolute;
+  left: 38%;
+  top: 68%;
+}
+.testimonial-section .Client-says .star .fa-star{
+  color: #ee5253;
+}
+
+.testimonial-section .Client-says h3{
+  font-size: 30px;
+  margin-left: 25%;
+}
+
+.testimonial-section .Client-says h4 {
+  margin-top: 10px;
+  margin-left: 37%;
+}
+
+
+.testimonial-section .Client-says p {
+  margin-top: 30px;
+  margin-left: 20px;
+}
+
+.testimonial-section form{
+  position: absolute;
+  top: 70%;
+  left: 20%;
+}
+.testimonial-section form textarea{
+  border: none;
+  outline: none;
+}
+.testimonial-section form p{
+  font-size: 20px;
+  margin: 10px;
+}
+
+.testimonial-section input{
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  font-size: 20px;
+  padding: 5px 10px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.desgine-section{
+  width: 100%;
+  height: 130vh;
+  position: relative;
+}
+
+.desgine-section h1{
+  font-size: 40px;
+  position: absolute;
+  top: 5%;
+  left: 35%;
+
+}
+
+.desgine-section img{
+  width: 250px;
+  height: 200px;
+}
+
+
+.desgine-section .design01{
+  position: absolute;
+  top: 15%;
+  left: 5%;
+  transition: 0.5s;
+}
+
+.desgine-section .design01:hover{
+  box-shadow: 0px 0px 25px 14px rgba(0, 0, 0, 0.2);
+  top: 14%;
+  z-index: 1;
+}
+
+.desgine-section .design02 {
+  position: absolute;
+  top: 30%;
+  left: 22%;
+  transition: 0.5s;
+}
+.desgine-section .design02:hover {
+  box-shadow: 0px 0px 25px 14px rgba(0, 0, 0, 0.2);
+  top: 29%;
+  z-index: 1;
+}
+
+.desgine-section .design03 {
+  position: absolute;
+  top:44%;
+  left: 38%;
+  transition: 0.5s;
+}
+.desgine-section .design03:hover {
+  box-shadow: 0px 0px 25px 14px rgba(0, 0, 0, 0.2);
+  top: 43%;
+  z-index: 1;
+}
+.desgine-section .design04{
+  position: absolute;
+  top: 60%;
+  left: 55%;
+  transition: 0.5s;
+}
+.desgine-section .design04:hover {
+  box-shadow: 0px 0px 25px 14px rgba(0, 0, 0, 0.2);
+  top: 59%;
+  z-index: 1;
+}
+.desgine-section .design05 {
+  position: absolute;
+  top: 67%;
+  left: 72%;
+  transition: 0.5s;
+}
+.desgine-section .design05:hover {
+  box-shadow: 0px 0px 25px 14px rgba(0, 0, 0, 0.2);
+  top: 66%;
+  z-index: 1;
+}
+
+.desgine-section .design06 {
+  position: absolute;
+  top: 15%;
+  right: 15%;
+  transition: 0.5s;
+}
+.desgine-section .design06:hover {
+  box-shadow: 0px 0px 25px 14px rgba(0, 0, 0, 0.2);
+  top: 14%;
+  z-index: 1;
+}
+
+.desgine-section .design07 {
+  width: 350px;
+  position: absolute;
+  bottom: 5%;
+  left: 5%;
+  transition: 0.5s;
+}
+.desgine-section .design07:hover {
+  box-shadow: 0px 0px 25px 14px rgba(0, 0, 0, 0.2);
+  bottom: 6%;
+  z-index: 1;
+}
+
+.design-btn{
+  position: absolute;
+  right: 15%;
+  top: 50%;
+  padding: 10px 20px;
+  border: 1px solid #ff6b6b;
+    background: #ff6b6b;
+  color: #c8d6e5;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+
+.design-btn:hover{
+  border: 1px solid #ee5253;
+  background: #ee5253;
+  color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.service-section{
+  border-top: 1px solid #c8d6e5;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+
+.service-section h1{
+  font-size: 40px;
+  position: absolute;
+  top: 5%;
+  left: 40%;
+}
+
+.service-section h1 span{
+  margin-left: 35%;
+  color: #ee5253;
+}
+
+.service-section .services{
+  position: absolute;
+  top: 30%;
+  left: 10%;
+
+  width: 300px;
+  height: 400px;
+  background: #c8d6e5;
+}
+.service-section .services h1 {
+  margin-left: -10%;
+}
+.service-section .services ol li {
+  margin-top: 20px;
+  margin-left: 40px;
+}
+
+.service-section .features {
+  position: absolute;
+  top: 30%;
+  right: 10%;
+
+  width: 300px;
+  height: 400px;
+  background: #c8d6e5;
+}
+
+.service-section .features h1{
+  margin-left: -10%;
+}
+
+.service-section .features ol li{
+ margin-top: 20px;
+ margin-left: 40px;
+}
+
+
+
+
+
+
+
+.contact-section{
+  border-top: 1px solid #c8d6e5;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+
+
+.contact-section h1{
+  font-size: 40px;
+  position: absolute;
+  top: 50px;
+  left: 40%;
+
+}
+
+.contact-section h1 span{
+  color: #ee5253;
+}
+
+
+
+.contact-section img{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+
+.contact-section .img01{
+  margin-left: 15%;
+  margin-top: 15%;
+  opacity: 0.5;
+}
+
+
+.contact-section .img02 {
+  margin-left: 5%;
+  margin-top: 15%;
+  opacity: 0.5;
+}
+
+.contact-section .img03 {
+  margin-left: 5%;
+  margin-top: 15%;
+}
+
+
+.contact-section .img04 {
+  margin-left: 5%;
+  margin-top: 15%;
+  opacity: 0.5;
+}
+
+
+.contact-section .img05 {
+  margin-left: 5%;
+  margin-top: 15%;
+  opacity: 0.5;
+}
+
+
+.contact-section .img06 {
+  margin-left: 5%;
+  margin-top: 15%;
+  opacity: 0.5;
+}
+
+.contact-section h2{
+  font-size: 40px;
+  position: absolute;
+  top: 50%;
+  left: 37%;
+}
+
+
+.contact-section .second-p {
+  position: absolute;
+  top: 60%;
+  left: 35%;
+}
+
+.contact-section .contact{
+  position: absolute;
+  left: 10%;
+  bottom: 10%;
+
+}
+
+
+.contact-section .contact p{
+  margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+footer{
+  width: 100%;
+  height: 30vh;
+  background: #000;
+  position: relative;
+}
+
+
+footer h1{
+  color: #c8d6e5;
+  position: absolute;
+  top: 5%;
+  left: 35%;
+}
+
+footer h1 span{
+  color: #ee5253;
+}
+
+
+
+
+
+
+
+
+
+
